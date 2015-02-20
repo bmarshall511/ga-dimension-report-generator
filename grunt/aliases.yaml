@@ -1,0 +1,25 @@
+default:
+    - 'shell:clean'
+    - 'jshint'
+    - 'uglify:dev'
+    - 'compass:dev'
+    - 'copy:dev'
+    - 'htmlmin:dev'
+    - 'watch'
+
+dist:
+    - 'shell:clean'
+    - 'jshint'
+    - 'uglify:dist'
+    - 'compass:dist'
+    - 'copy:dist'
+    - 'htmlmin:dist'
+
+push:
+    - 'shell:clean'
+    - 'jshint'
+    - 'uglify:dist'
+    - 'compass:dist'
+    - 'copy:dist'
+    - 'htmlmin:dist'
+    - 'shell:push'

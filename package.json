@@ -1,0 +1,22 @@
+{
+  "name": "ga-dimension-report-generator",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bmarshall511/ga-dimension-report-generator.git"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-shell": "*",
+    "load-grunt-config": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-htmlmin": "*"
+  },
+  "dependencies": {
+    "time-grunt": "*"
+  }
+}
